@@ -1,0 +1,106 @@
+/* style.css */
+
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 15px;
+}
+.head{
+    color:white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.head h1{
+    font-size: 3vw;
+    margin-bottom: 20px;
+}
+/* Heading styles */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Container for the card section */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card styles */
+.card1 {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card1 h2 {
+    background-color: #e95e32;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card1 h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card1 p {
+    padding: 0 15px 15px;
+    text-align: center;
+    color: #555;
+}
